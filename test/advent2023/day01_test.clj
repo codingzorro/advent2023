@@ -23,3 +23,7 @@
     (is (= (to-int [1 3 5]) 15))
     (is (= (to-int [7 7]) 77))
     ))
+
+(deftest morning01-test
+  (testing "calibration of a list of lines"
+    (is (= (morning01 sample-data) 142))))

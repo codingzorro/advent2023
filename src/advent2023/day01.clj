@@ -19,3 +19,8 @@
   (->> an-array
     (#(vector (first %) (last %)))
     as-number))
+
+(defn morning01
+  "Calculate the sum of the calibration of each one of the given lines"
+  [lines]
+  0)
