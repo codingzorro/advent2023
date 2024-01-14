@@ -1,12 +1,14 @@
 (ns advent2023.day01)
 
 (defn decode
-  "Extract the digits in the given string"
+  "extract digits in a string; e.g. \"a1b2\" --> [1 2]"
   [a-string]
-  [1 5])
+  (->> a-string
+    (re-seq #"\d")
+    (map #(Integer/parseInt %))))
 
 (defn to-int
   "Create a two-digit integer using the first and last elements of a given
   array of digits"
   [an-array]
-  15)
+  42)
