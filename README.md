@@ -1,10 +1,15 @@
 # advent2023
 
-A Clojure library designed to ... well, that part is up to you.
+A project designed to learn and explain how to write simple but
+"conventional" programs with Clojure.  "Conventional" means something like
+"non-functional", i.e., programs with a "do this and then do that and then do
+that" workflow, as opposed to your typical kata to do some very sophisticated
+transformation to one data structure.
 
 ## Usage
 
-FIXME
+Just clone this repository and do whatever you want as long as it is legal and
+does not harm anybody or anything.
 
 ## License
 
