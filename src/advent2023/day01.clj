@@ -5,8 +5,6 @@
   [[a b]]
   (+ (* a 10) b))
 
-
-
 (defn decode
   "extract digits in a string; e.g. \"a1b2\" --> [1 2]"
   [a-string]

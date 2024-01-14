@@ -2,13 +2,19 @@
   (:require [clojure.test :refer :all]
             [advent2023.day01 :refer :all]))
 
+
+(def sample-data
+  ["1abc2"
+   "pqr3stu8vwx"
+   "a1b2c3d4e5f"
+   "treb7uchet"])
+
 (deftest decode-test
   (testing "Extract the digits in a given string"
-    (is (= (decode "1abc2") [1 2]))
-    (is (= (decode "pqr3stu8vwx") [3 8]))
-    (is (= (decode "a1b2c3d4e5f") [1 2 3 4 5]))
-    (is (= (decode "treb7uchet") [7]))
-    ))
+    (is (= (decode (sample-data 0)) [1 2]))
+    (is (= (decode (sample-data 1)) [3 8]))
+    (is (= (decode (sample-data 2)) [1 2 3 4 5]))
+    (is (= (decode (sample-data 3)) [7]))))
 
 (deftest to-int-test
   (testing "Extract the digits in a given string"

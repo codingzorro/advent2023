@@ -16,6 +16,9 @@ The calibration is a two-digit number "encrypted" in each line:
 * extract all digits contained in the line: 1, 3 and 5 in this case
 * take the first and the last one to get the calibration: 15 in this case
 
+**Note:** We will start by implementing the calibration and only after that we
+will implement the "main loop" to accumulate the sum of calibrations.
+
 ### Step 1: Write the tests
 It is clear that we need at least two functions:
 * `(decode "a1b2c3d4e5f")` shall return `[1 3 5]`
@@ -28,3 +31,5 @@ Note that they fail; i.e, they are "red" according to the TDD terminology.
 ### Step 2: Go from "green" to "red"
 Tag [morning-01-green](https://github.com/codingzorro/advent2023/releases/tag/morning-01-green)
 implements the functions needed to pass the existing tests
+
+###
