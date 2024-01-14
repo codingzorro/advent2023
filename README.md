@@ -8,8 +8,7 @@ transformation to one data structure.
 
 ## Usage
 
-Just clone this repository and do whatever you want as long as it is legal and
-does not harm anybody or anything.
+Take a look at the `doc` directory for a day-by-day log.
 
 ## License
 

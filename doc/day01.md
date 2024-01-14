@@ -16,7 +16,7 @@ The calibration is a two-digit number "encrypted" in each line:
 * extract all digits contained in the line: 1, 3 and 5 in this case
 * take the first and the last one to get the calibration: 15 in this case
 
-### Write the tests
+### Step 1: Write the tests
 It is clear that we need at least two functions:
 * `(decode "a1b2c3d4e5f")` shall return `[1 3 5]`
 * `(to-int [1 3 5])` shall return `15`
@@ -24,3 +24,7 @@ It is clear that we need at least two functions:
 The unit tests for these functions are tagged in this repository as
 [morning-01-red](https://github.com/codingzorro/advent2023/tree/morning-01-red).
 Note that they fail; i.e, they are "red" according to the TDD terminology.
+
+### Step 2: Go from "green" to "red"
+Tag [morning-01-green](https://github.com/codingzorro/advent2023/releases/tag/morning-01-green)
+implements the functions needed to pass the existing tests
