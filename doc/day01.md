@@ -32,4 +32,14 @@ Note that they fail; i.e, they are "red" according to the TDD terminology.
 Tag [morning-01-green](https://github.com/codingzorro/advent2023/releases/tag/morning-01-green)
 implements the functions needed to pass the existing tests
 
-###
+### Step 3: Go back to "red"
+With the existing code, we can calculate the calibration of each line.  Now
+we can start writing the "main program": take a list of lines and get the total
+sum of the calibration of each line:
+
+* we write the test
+* we write a skeleton of the function meant to pass the test
+* we verify that we are in a "red" phase again.
+
+Tag [morning-01-red-again](https://github.com/codingzorro/advent2023/releases/tag/morning-01-red-again)
+marks the repository's state after these steps have been implemented.
