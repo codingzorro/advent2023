@@ -43,3 +43,7 @@ sum of the calibration of each line:
 
 Tag [morning-01-red-again](https://github.com/codingzorro/advent2023/releases/tag/morning-01-red-again)
 marks the repository's state after these steps have been implemented.
+
+### Step 4: Implement the "loop" to go to "green" again
+Tag [morning-01-green-again](https://github.com/codingzorro/advent2023/releases/tag/morning-01-green-again)
+marks the state after implementing the loop using the `reduce` funcion.
