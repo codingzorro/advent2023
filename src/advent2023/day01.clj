@@ -20,10 +20,14 @@
     (#(vector (first %) (last %)))
     as-number))
 
-(defn morning01
+(defn solution
   "Calculate the sum of the calibration of each one of the given lines"
-  [lines]
+  [decoder lines]
   (->> lines
-    (map decode)
+    (map decoder)
     (map to-int)
     (reduce +)))
+
+(defn morning01
+  [lines]
+  (solution decode lines))

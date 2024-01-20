@@ -55,4 +55,11 @@ calibration for all lines stored in a file.  We will write a function called
 `parse-aoc-file` (for "parse Advent of Code file") and - since it will be used
 on several days - store it in a separate file called `utils.clj`.  Besides, we
 will store the sample input given in the problem description as a file to test
-`parse-aoc-file`
+`parse-aoc-file`.  The code which implement this has two tags: `0.2.0` and
+`day01-morning`.
+
+## Afternoon
+The difference between morning and afternoon is the decoding function.
+
+### Step 1: Parameterize the current `decode` function
+No need to write a new unit test here.
