@@ -25,3 +25,6 @@
 (deftest morning01-test
   (testing "calibration of a list of lines"
     (is (= (morning01 sample-data) 142))))
+
+; uncomment the following line to evaluate the solution using the full input
+; (morning01 (parse-aoc-file "resources/day01-full-input.txt"))
