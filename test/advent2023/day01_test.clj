@@ -1,13 +1,11 @@
 (ns advent2023.day01-test
   (:require [clojure.test :refer :all]
+            [advent2023.utils :refer :all]
             [advent2023.day01 :refer :all]))
 
 
 (def sample-data
-  ["1abc2"
-   "pqr3stu8vwx"
-   "a1b2c3d4e5f"
-   "treb7uchet"])
+  (parse-aoc-file "resources/day01-sample-input.txt"))
 
 (deftest decode-test
   (testing "Extract the digits in a given string"

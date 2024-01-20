@@ -47,3 +47,12 @@ marks the repository's state after these steps have been implemented.
 ### Step 4: Implement the "loop" to go to "green" again
 Tag [morning-01-green-again](https://github.com/codingzorro/advent2023/releases/tag/morning-01-green-again)
 marks the state after implementing the loop using the `reduce` funcion.
+
+### Step 5: Get the input data from a file
+Now we are able to calculate the calibration using the text lines provided for
+explanation purposes. However, to earn the first star we must calculate the
+calibration for all lines stored in a file.  We will write a function called
+`parse-aoc-file` (for "parse Advent of Code file") and - since it will be used
+on several days - store it in a separate file called `utils.clj`.  Besides, we
+will store the sample input given in the problem description as a file to test
+`parse-aoc-file`
